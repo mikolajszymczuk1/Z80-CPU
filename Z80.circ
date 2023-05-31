@@ -390,25 +390,25 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="H"/>
     </comp>
-    <comp lib="8" loc="(592,181)" name="Text">
+    <comp lib="8" loc="(590,180)" name="Text">
       <a name="text" val="H - 100"/>
     </comp>
-    <comp lib="8" loc="(595,141)" name="Text">
+    <comp lib="8" loc="(595,140)" name="Text">
       <a name="text" val="D - 010"/>
     </comp>
-    <comp lib="8" loc="(595,99)" name="Text">
+    <comp lib="8" loc="(595,95)" name="Text">
       <a name="text" val="B - 000"/>
     </comp>
-    <comp lib="8" loc="(693,175)" name="Text">
-      <a name="text" val="L - 101"/>
-    </comp>
-    <comp lib="8" loc="(694,137)" name="Text">
+    <comp lib="8" loc="(690,135)" name="Text">
       <a name="text" val="E - 011"/>
+    </comp>
+    <comp lib="8" loc="(690,175)" name="Text">
+      <a name="text" val="L - 101"/>
     </comp>
     <comp lib="8" loc="(695,365)" name="Text">
       <a name="text" val="Registers Section"/>
     </comp>
-    <comp lib="8" loc="(695,97)" name="Text">
+    <comp lib="8" loc="(695,95)" name="Text">
       <a name="text" val="C - 001"/>
     </comp>
     <wire from="(1000,160)" to="(1000,450)"/>
@@ -664,14 +664,18 @@
       <a name="addrWidth" val="16"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 16 8
-c6 4
+1e c0 43
 </a>
+      <a name="label" val="Program"/>
     </comp>
-    <comp lib="8" loc="(1215,300)" name="Text">
+    <comp lib="8" loc="(1307,346)" name="Text">
       <a name="text" val="Example program"/>
     </comp>
     <comp lib="8" loc="(1395,580)" name="Text">
       <a name="text" val="Z80 Main"/>
+    </comp>
+    <comp lib="8" loc="(943,485)" name="Text">
+      <a name="text" val="Program"/>
     </comp>
     <comp loc="(1520,670)" name="CUv2"/>
     <comp loc="(1950,580)" name="ALU"/>
@@ -1004,9 +1008,7 @@ c6 4
     <wire from="(640,540)" to="(800,540)"/>
     <wire from="(660,190)" to="(660,340)"/>
     <wire from="(660,340)" to="(660,360)"/>
-    <wire from="(660,360)" to="(660,530)"/>
     <wire from="(660,360)" to="(750,360)"/>
-    <wire from="(660,530)" to="(750,530)"/>
     <wire from="(670,310)" to="(670,340)"/>
     <wire from="(670,340)" to="(740,340)"/>
     <wire from="(680,170)" to="(800,170)"/>
@@ -1021,11 +1023,13 @@ c6 4
     <wire from="(700,460)" to="(700,490)"/>
     <wire from="(700,460)" to="(880,460)"/>
     <wire from="(700,490)" to="(740,490)"/>
-    <wire from="(700,680)" to="(700,750)"/>
+    <wire from="(700,680)" to="(700,690)"/>
+    <wire from="(700,690)" to="(700,750)"/>
+    <wire from="(700,690)" to="(750,690)"/>
     <wire from="(700,750)" to="(750,750)"/>
     <wire from="(720,660)" to="(1260,660)"/>
     <wire from="(750,350)" to="(750,360)"/>
-    <wire from="(750,520)" to="(750,530)"/>
+    <wire from="(750,520)" to="(750,690)"/>
     <wire from="(770,330)" to="(800,330)"/>
     <wire from="(770,500)" to="(800,500)"/>
     <wire from="(800,730)" to="(1180,730)"/>
